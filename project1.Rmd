@@ -118,7 +118,7 @@ okscale2 <- list(x = list(rot = 45, cex = 1.0, labels = format(stepsperday2$date
 
 barchart(date ~ steps, data = stepsperday2, main = "steps per day", ylab = "steps", xlab = "date", scales = okscale2, horizontal = F)
 
-paste("mean:", mean(stepsperday22$steps))
+paste("mean:", mean(stepsperday2$steps))
 paste("median:", median(stepsperday2$steps))
 
 paste("means difference:", mean(stepsperday2$steps)-mean(stepsperday$steps))

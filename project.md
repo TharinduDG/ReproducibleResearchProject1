@@ -65,7 +65,7 @@ okscale <- list(x = list(rot = 45, cex = 1.0, labels = format(stepsperday$date, 
 barchart(date ~ steps, data = stepsperday, main = "steps per day", ylab = "steps", xlab = "date", scales = okscale, horizontal = F)
 ```
 
-![](project_files/figure-html/unnamed-chunk-2-1.png)
+![](unnamed-chunk-2-1.png)
 
 ```r
 paste("mean:", mean(stepsperday$steps))
@@ -101,7 +101,7 @@ text(835,200, "max average of steps: (832,206.2)", col = "blue", adj = c(-.1, -.
 segments(0, 206.2, 832, 206.2, col = "blue", lty = "dashed")
 ```
 
-![](project_files/figure-html/unnamed-chunk-3-1.png)
+![](unnamed-chunk-3-1.png)
 
 ```r
 timeseries [maximum, ]
@@ -163,7 +163,7 @@ okscale2 <- list(x = list(rot = 45, cex = 1.0, labels = format(stepsperday2$date
 barchart(date ~ steps, data = stepsperday2, main = "steps per day", ylab = "steps", xlab = "date", scales = okscale2, horizontal = F)
 ```
 
-![](project_files/figure-html/unnamed-chunk-4-1.png)
+![](unnamed-chunk-4-1.png)
 
 ```r
 paste("mean:", mean(stepsperday2$steps))
@@ -231,4 +231,4 @@ qplot(interval, steps, data=semana_o_finde, geom=c("line"), xlab="5-min interval
       ylab="steps mean", main="") + facet_wrap(~ tipodia, ncol=1)
 ```
 
-![](project_files/figure-html/unnamed-chunk-5-1.png)
+![](unnamed-chunk-5-1.png)

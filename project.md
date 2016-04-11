@@ -1,5 +1,4 @@
 # represearch project 1
-Michael Spencer  
 April 10, 2016  
 
 ## Loading and preprocessing the data

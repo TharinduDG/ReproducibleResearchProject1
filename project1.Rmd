@@ -16,11 +16,11 @@ Show any code that is needed to
 ```{r, echo = TRUE}
 setwd("~/Desktop/coursera rprograming/reproducible research/project 1")
 
-install.packages("plyr")
-install.packages("lattice")
-install.packages("data.table")
-install.packages("httr")
-install.packages("ggplot2")
+library("plyr")
+library("lattice")
+library("data.table")
+library("ggplot2")
+
 
 url <- "d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
 data <- "data"
